@@ -1,0 +1,22 @@
+{
+	"name": "super-kernel/scanner",
+	"description": "The package that provides scanning capabilities for `super-kernel`.",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"SuperKernel\\Scanner\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "wheakerd",
+			"email": "wheakerd@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": "8.4.*",
+		"super-kernel/contract": "^1.0"
+	}
+}
